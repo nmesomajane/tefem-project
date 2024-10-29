@@ -280,7 +280,7 @@ span{
 .join-us{
   height: 100vh;
   width: 100%;
-  background-image: url('images/pics.jpg');
+  background-image: url('../first-project/images/pics.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -495,6 +495,14 @@ li a{
   }
   .join-us{
     font-size: 35px;
+  }
+  img{
+    width: 60px;
+    height: auto;
+
+  }
+  .top{
+    font-size: 5px;
   }
 
     
