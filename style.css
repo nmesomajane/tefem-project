@@ -66,6 +66,7 @@ body {
   font-size: 10px;
   justify-content: space-between;
   
+  
 }
 
 /* navbar styles */
@@ -76,25 +77,83 @@ nav ul {
   float: right;
   margin-right: 20px;
 
-  display: flex;
-  text-align: center;
+  /* display: flex;
+  text-align: center; */
   gap: 30px;
+  
+
 
 }
+.navbar{
+  display: flex;
+  gap: 30px;
+}
+li {
+  display: inline-block;
+  color: white;
+  position: relative;
+}
+
 nav ul li a {
   color: red;
   text-decoration: none;
   font-size: 20px;
+  display: block;
 }
+
 a:hover {
   color: green;
   text-decoration: underline;
 }
 
-li {
-  display: inline-block;
-  color: white;
+
+
+
+/* dropdown styles */
+ .dropdown {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: red;
+    color: black;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+     box-shadow: 0px 2px 5px red; 
+    min-width: 100px; 
+    z-index: 1;
+    
+
 }
+.dropdown ul {
+    list-style: none;
+    padding: 5px;
+    margin: 0;
+}  
+
+.dropdown ul li {
+    padding: 10px;
+    white-space: nowrap;
+} 
+
+/* Style dropdown links */
+.dropdown ul li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+/* Hover effect for dropdown items */
+.dropdown ul li:hover {
+    background-color: #f0f0f0;
+    color: red; 
+    
+} 
+
+.navbar > li:hover .dropdown {
+    display: block;
+} 
+
 
 /* hero section styyle */
 .welcome {
@@ -312,6 +371,7 @@ footer{
     color: white; 
     line-height: 1.8;
     margin: 25px;
+    padding: 10px;
 }
 
 .work {
@@ -394,14 +454,7 @@ li a{
     display: block;
     padding: 30px;
   }
-  .top{
-    background-color: white;
-    color: red;
-  }
-  nav ul{
-    background-color: red;
-    color: white;
-  }
+  
   .h1{
     font-size: 40px;
     
@@ -421,13 +474,28 @@ li a{
     gap: 30px;
     margin: 30px;
   }
-   #join-us a{
+  #join-us a{
        border: 2px solid red;
       padding: 10px 20px;
        margin: 20px;
        gap: 5px;
  
-    }
+  }
+  p{
+    font-size: 15px;
+  }
+  h1{
+    font-size: 25px;
+  }
+  .aboutus{
+    font-size: 35px;
+  }
+  span{
+    font-size: 30px;
+  }
+  .join-us{
+    font-size: 35px;
+  }
 
     
     
