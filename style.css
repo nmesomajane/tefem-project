@@ -11,7 +11,7 @@ body {
 .container {
   height: 100vh;
   width: 100%;
-  background-image: url('images/school1.png');
+  background-image: url('../images/school1.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -20,27 +20,27 @@ body {
 
 @keyframes slide {
   0% {
-    background-image: url('images/school.png');
+    background-image: url('../images/school.png');
     
   }
   20% {
-    background-image: url('images/school2.png');
+    background-image: url('../images/school2.png');
     
   }
   40% {
-    background-image: url('images/school3.png');
+    background-image: url('../images/school3.png');
     
   }
   60% {
-    background-image: url('images/school4.png');
+    background-image: url('../images/school4.png');
     
   }
   80% {
-    background-image: url('images/school5.png');
+    background-image: url('../images/school5.png');
     
   }
   100% {
-    background-image: url('images/school6.png');
+    background-image: url('../images/school6.png');
     
   }
 } 
